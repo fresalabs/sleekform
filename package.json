@@ -4,7 +4,7 @@
   "description": "Fully customizable Typeform components",
   "author": "mohithg",
   "license": "MIT",
-  "repository": "mohithg/sleekform",
+  "repository": "fresalabs/sleekform",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
