@@ -97,6 +97,6 @@ const theme = {
   progressTextColor: 'red',
 };
 
-export const SleekFormThemProvider = ({ children }: { children: JSX.Element }) => (
+export const SleekFormThemeProvider = ({ children }: { children: JSX.Element }) => (
   <ThemeProvider theme={theme}>{children}</ThemeProvider>
 );

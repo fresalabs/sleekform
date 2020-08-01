@@ -10,10 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e7e5c9c2-93cd-4b1c-afe0-ad5cd0b5165e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/SeekFormThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/SleekFormThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/SleekFormThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/SleekFormThemeProvider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

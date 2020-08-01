@@ -9,7 +9,7 @@ import SelectComponent from './components/Select';
 import SummaryComponent from './components/Summary';
 import TextComponent from './components/Text';
 import WelcomeComponent from './components/Welcome';
-import SleekFormThemeProviderComponent from './style/SleekFormThemeProvider.tsx';
+import { SleekFormThemeProvider as SleekFormThemeProviderComponent } from './style/SleekFormThemeProvider';
 
 export const Form = FormComponent;
 export const ItemFooter = ItemFooterComponent;
