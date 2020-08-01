@@ -9,51 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e5c9c2-93cd-4b1c-afe0-ad5cd0b5165e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sleekform.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemFooter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Question.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Radio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Scale.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Summary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Welcome.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/question.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/radio.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/rating.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/scale.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/select.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/summary.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/text.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/welcome.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/SeekFormThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/fontSizes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/fontWeights.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/heights.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/letterSpacings.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/lineHeights.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/margins.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/paddings.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sizes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/themeUtils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typings.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596262565043</updated>
       <workItem from="1596262566606" duration="165000" />
-      <workItem from="1596263273832" duration="2917000" />
+      <workItem from="1596263273832" duration="3075000" />
     </task>
     <servers />
   </component>
