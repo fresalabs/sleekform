@@ -1,14 +1,14 @@
-import * as FormComponent from './components/Form';
-import * as ItemFooterComponent from './components/ItemFooter';
-import * as ItemHeaderComponent from './components/ItemHeader';
-import * as QuestionComponent from './components/Question';
-import * as RadioComponent from './components/Radio';
-import * as RatingComponent from './components/Rating';
-import * as ScaleComponent from './components/Scale';
-import * as SelectComponent from './components/Select';
-import * as SummaryComponent from './components/Summary';
-import * as TextComponent from './components/Text';
-import * as WelcomeComponent from './components/Welcome';
+import FormComponent from './components/Form';
+import ItemFooterComponent from './components/ItemFooter';
+import ItemHeaderComponent from './components/ItemHeader';
+import QuestionComponent from './components/Question';
+import RadioComponent from './components/Radio';
+import RatingComponent from './components/Rating';
+import ScaleComponent from './components/Scale';
+import SelectComponent from './components/Select';
+import SummaryComponent from './components/Summary';
+import TextComponent from './components/Text';
+import WelcomeComponent from './components/Welcome';
 
 export const Form = FormComponent;
 export const ItemFooter = ItemFooterComponent;
