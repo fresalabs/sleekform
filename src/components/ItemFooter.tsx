@@ -4,6 +4,7 @@ import { themeHelper } from '../style/themeUtils';
 
 interface ItemFooterProps {
   buttonText?: string;
+  onClick?: (e: React.MouseEvent) => void;
 }
 
 const Button = styled.button`
@@ -24,7 +25,7 @@ const Button = styled.button`
 class ItemFooter extends React.Component<ItemFooterProps, any> {
   render() {
     const { buttonText } = this.props;
-    return <Button>{buttonText}</Button>;
+    return <Button onClick={this.props.onClick}>{buttonText}</Button>;
   }
 }
 
