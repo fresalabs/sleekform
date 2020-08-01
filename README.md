@@ -10,21 +10,23 @@
 npm install --save @fresalabs/sleekform
 ```
 
-## Usage
+## Documentation
 
-```tsx
-import React, { Component } from 'react'
+Refer our [documentation site](https://github.com/fresalabs) for more detailed documentation
 
-import MyComponent from '@fresalabs/sleekform'
-import 'sleekform/dist/index.css'
+## Demos
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
+Visit our [demos site](https://github.com/fresalabs) for demos.
 
 ## License
 
 MIT
+
+## Roadmap
+
+[ ] Integrate with Formsy library
+[ ] Build Form config and offer a full form solution
+[ ] Add animations when offered in a full form solution
+[ ] Add selenium tests
+
+#### Contributions are welcome
