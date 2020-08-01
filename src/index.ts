@@ -9,6 +9,7 @@ import SelectComponent from './components/Select';
 import SummaryComponent from './components/Summary';
 import TextComponent from './components/Text';
 import WelcomeComponent from './components/Welcome';
+import SleekFormThemeProviderComponent from './style/SleekFormThemeProvider.tsx';
 
 export const Form = FormComponent;
 export const ItemFooter = ItemFooterComponent;
@@ -21,6 +22,7 @@ export const Select = SelectComponent;
 export const Summary = SummaryComponent;
 export const Text = TextComponent;
 export const Welcome = WelcomeComponent;
+export const SleekFormThemeProvider = SleekFormThemeProviderComponent;
 
 export default {
   Form,
@@ -33,5 +35,6 @@ export default {
   Select,
   Summary,
   Text,
-  Welcome
+  Welcome,
+  SleekFormThemeProvider
 }

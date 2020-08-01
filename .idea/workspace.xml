@@ -11,7 +11,9 @@
     <list default="true" id="e7e5c9c2-93cd-4b1c-afe0-ad5cd0b5165e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/SeekFormThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/SleekFormThemeProvider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596262565043</updated>
       <workItem from="1596262566606" duration="165000" />
-      <workItem from="1596263273832" duration="4370000" />
+      <workItem from="1596263273832" duration="4588000" />
     </task>
     <servers />
   </component>

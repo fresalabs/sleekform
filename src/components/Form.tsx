@@ -1,5 +1,5 @@
 import React from 'react';
-import { SeekFormThemProvider } from '../style/SeekFormThemeProvider';
+import { SleekFormThemProvider } from '../style/SleekFormThemeProvider';
 import styled from 'styled-components';
 import { themeHelper } from '../style/themeUtils';
 
@@ -19,9 +19,9 @@ class Form extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <SeekFormThemProvider>
+      <SleekFormThemProvider>
         <StyledForm>{children}</StyledForm>
-      </SeekFormThemProvider>
+      </SleekFormThemProvider>
     );
   }
 }
