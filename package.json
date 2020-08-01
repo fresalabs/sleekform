@@ -1,6 +1,6 @@
 {
-  "name": "sleekform",
-  "version": "1.0.0",
+  "name": "@fresalabs/sleekform",
+  "version": "0.0.1",
   "description": "Fully customizable Typeform components",
   "author": "mohithg",
   "license": "MIT",
