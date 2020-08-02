@@ -1,15 +1,16 @@
 import React from 'react';
-import styled from "styled-components";
+import styled from 'styled-components';
 import Question from './Question';
 import ItemFooter from './ItemFooter';
 import ItemHeader from './ItemHeader';
-import { themeHelper } from "../style/themeUtils";
+import { themeHelper } from '../style/themeUtils';
 
 interface WelcomeProps {
   header?: string;
   headerColor?: string;
   description?: string;
   buttonText: string;
+  onButtonClick: (e: React.MouseEvent) => void;
 }
 
 const WelcomeContainer = styled.div`
@@ -29,7 +30,10 @@ class Welcome extends React.Component<WelcomeProps> {
       <WelcomeContainer>
         {header && <ItemHeader headerColor={headerColor}>{header}</ItemHeader>}
         {description && <Question required={false}>{description}</Question>}
-        <ItemFooter buttonText={buttonText} />
+        <ItemFooter
+          buttonText={buttonText}
+          onClick={this.props.onButtonClick}
+        />
       </WelcomeContainer>
     );
   }
