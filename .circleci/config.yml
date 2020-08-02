@@ -50,8 +50,3 @@ workflows:
       - deploy:
           requires:
             - test
-          filters:
-            tags:
-              only: master
-            branches:
-              ignore: /.*/
