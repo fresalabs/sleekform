@@ -9,7 +9,10 @@ import SelectComponent from './components/Select';
 import SummaryComponent from './components/Summary';
 import TextComponent from './components/Text';
 import WelcomeComponent from './components/Welcome';
-import { SleekFormThemeProvider as SleekFormThemeProviderComponent } from './style/SleekFormThemeProvider';
+import {
+  SleekFormThemeProvider as SleekFormThemeProviderComponent,
+  theme as SleekFormBasicThemeObject
+} from './style/SleekFormThemeProvider';
 
 export const Form = FormComponent;
 export const ItemFooter = ItemFooterComponent;
@@ -23,6 +26,7 @@ export const Summary = SummaryComponent;
 export const Text = TextComponent;
 export const Welcome = WelcomeComponent;
 export const SleekFormThemeProvider = SleekFormThemeProviderComponent;
+export const SleekFormBasicTheme = SleekFormBasicThemeObject;
 
 export default {
   Form,
@@ -36,5 +40,6 @@ export default {
   Summary,
   Text,
   Welcome,
-  SleekFormThemeProvider
-}
+  SleekFormThemeProvider,
+  SleekFormBasicTheme
+};

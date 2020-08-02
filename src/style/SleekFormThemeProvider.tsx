@@ -10,20 +10,20 @@ import * as fontWeights from './fontWeights';
 import * as lineHeights from './lineHeights';
 import { linkBlue } from '../colors';
 
-const theme = {
+export const theme = {
   heights: {
     tiny: heights.TINY,
     small: heights.SMALL,
     medium: heights.MEDIUM,
     large: heights.LARGE,
-    extraLarge: heights.EXTRA_LARGE,
+    extraLarge: heights.EXTRA_LARGE
   },
   paddings: {
     tiny: paddings.TINY,
     small: paddings.SMALL,
     medium: paddings.MEDIUM,
     large: paddings.LARGE,
-    extraLarge: paddings.EXTRA_LARGE,
+    extraLarge: paddings.EXTRA_LARGE
   },
   margins: {
     tiny: margins.TINY,
@@ -31,18 +31,18 @@ const theme = {
     medium: margins.MEDIUM,
     large: margins.LARGE,
     largeInt: margins.LARGE_INT,
-    extraLarge: margins.EXTRA_LARGE,
+    extraLarge: margins.EXTRA_LARGE
   },
   letterSpacings: {
     tiny: letterSpacings.TINY,
-    small: letterSpacings.SMALL,
+    small: letterSpacings.SMALL
   },
   fontWeights: {
     thin: fontWeights.THIN,
     normal: fontWeights.NORMAL,
     medium: fontWeights.MEDIUM,
     thick: fontWeights.THICK,
-    bold: fontWeights.BOLD,
+    bold: fontWeights.BOLD
   },
   fontFamily: '"Graphik Web", Lato, "Helvetica Neue", Helvetica, sans-serif',
   fontSizes: {
@@ -52,7 +52,7 @@ const theme = {
     medium: fontSizes.MEDIUM,
     large: fontSizes.LARGE,
     xlLarge: fontSizes.XL_LARGE,
-    extraLarge: fontSizes.EXTRA_LARGE,
+    extraLarge: fontSizes.EXTRA_LARGE
   },
   lineHeights: {
     extraTiny: lineHeights.EXTRA_TINY,
@@ -60,21 +60,22 @@ const theme = {
     small: lineHeights.SMALL,
     medium: lineHeights.MEDIUM,
     large: lineHeights.LARGE,
-    extraLarge: lineHeights.EXTRA_LARGE,
+    extraLarge: lineHeights.EXTRA_LARGE
   },
   iconSizes: {
     small: sizes.ICON_SMALL,
     medium: sizes.ICON_MEDIUM,
-    large: sizes.ICON_LARGE,
+    large: sizes.ICON_LARGE
   },
   sizes: {
     tiny: sizes.TINY,
     small: sizes.SMALL,
     medium: sizes.MEDIUM,
     large: sizes.LARGE,
-    extraLarge: sizes.EXTRA_LARGE,
+    extraLarge: sizes.EXTRA_LARGE
   },
-  backgroundImage: "url('https://images.typeform.com/images/YuBdD6m3incD/background/large')",
+  backgroundImage:
+    "url('https://images.typeform.com/images/YuBdD6m3incD/background/large')",
   componentsBackGroundColor: 'rgba(26, 145, 162, 0.1)',
   buttonBackgroundColor: 'white',
   questionColor: 'rgb(83, 83, 83)',
@@ -94,9 +95,13 @@ const theme = {
   footerBackgroundColor: 'red',
   footerTextColor: 'red',
   progressColor: 'red',
-  progressTextColor: 'red',
+  progressTextColor: 'red'
 };
 
-export const SleekFormThemeProvider = ({ children }: { children: JSX.Element }) => (
-  <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
+export const SleekFormThemeProvider = ({
+  children,
+  sleekFormTheme
+}: {
+  children: JSX.Element;
+  sleekFormTheme?: any;
+}) => <ThemeProvider theme={sleekFormTheme || theme}>{children}</ThemeProvider>;
