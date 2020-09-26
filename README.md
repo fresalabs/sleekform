@@ -13,7 +13,7 @@ npm install --save @fresalabs/sleekform
 
 ## Documentation
 
-Refer our [documentation site](https://fresalabs.github.io/sleekform/) for more detailed documentation
+Refer our [documentation site](https://sleekform.fresalabs.com) for more detailed documentation
 
 ## Demos
 
